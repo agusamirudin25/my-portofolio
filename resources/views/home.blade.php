@@ -1,39 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-    <title>My-portofolio | Agus Amirudin</title>
-    <meta content="my portofolio" name="description">
-    <meta content="portofoliio, agus amirudin" name="keywords">
-
-    <!-- Favicons -->
-    <link href="/img/favicon.png" rel="icon">
-    <link href="/img/apple-touch-icon.png" rel="apple-touch-icon">
-
-    <!-- Google Fonts -->
-    <link
-        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-        rel="stylesheet">
-
-    <!-- Vendor CSS Files -->
-    <link href="/vendor/aos/aos.css" rel="stylesheet">
-    <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-    <link href="/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-    <link href="/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-    <link href="/css/style.css" rel="stylesheet">
-
-</head>
-
-<body>
-
-    <!-- ======= Mobile nav toggle button ======= -->
-    <!-- <button type="button" class="mobile-nav-toggle d-xl-none"><i class="bi bi-list mobile-nav-toggle"></i></button> -->
+<x-layout>
     <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
     <!-- ======= Header ======= -->
     <header id="header" class="d-flex flex-column justify-content-center">
@@ -59,34 +24,42 @@
     <!-- ======= Hero Section ======= -->
     <section id="hero" class="d-flex flex-column justify-content-center">
         <div class="container" data-aos="zoom-in" data-aos-delay="100">
-            <h1>Brandon Johnson</h1>
-            <p>I'm <span class="typed" data-typed-items="Designer, Developer, Freelancer, Photographer"></span></p>
+            <h1>Agus Amirudin</h1>
+            <p>I'm <span class="typed" data-typed-items="Developer, Programmer"></span></p>
             <div class="social-links">
-                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                <a href="https://github.com/agusamirudin25" target="_blank" class="github"><i
+                        class="bx bxl-github"></i></a>
+                <a href="https://twitter.com/agusamirudin_" target="_blank" class="twitter"><i
+                        class="bx bxl-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/agus-amirudin/" target="_blank" class="linkedin"><i
+                        class="bx bxl-linkedin"></i></a>
             </div>
         </div>
     </section><!-- End Hero -->
 
     <main id="main">
-
         <!-- ======= About Section ======= -->
         <section id="about" class="about">
             <div class="container" data-aos="fade-up">
-
                 <div class="section-title">
                     <h2>About</h2>
-                    <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit
-                        sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias
-                        ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae deserunt similique error
+                        maiores fuga, consectetur voluptates iure eveniet, voluptatibus amet velit at ad, iste ducimus?
+                        Fugiat iste atque suscipit aspernatur! Ab sapiente illo provident, fugit aperiam corporis? Vitae
+                        excepturi consequuntur omnis a harum corporis amet maiores. Tempora, reprehenderit magni quis
+                        facilis culpa ea explicabo blanditiis modi excepturi sit id ipsa voluptas debitis nesciunt
+                        veniam possimus fugiat quos qui, distinctio facere. Aliquid cum reprehenderit nam esse quo
+                        asperiores ea minus aperiam quidem quae eaque reiciendis impedit, perferendis dolorem ratione
+                        itaque fugiat? Accusamus vitae ratione animi consectetur nulla iure iusto voluptates nihil
+                        laudantium exercitationem perferendis, provident vero nam, repellendus magni illo officia.
+                        Magnam beatae ut molestias, dolor ad molestiae impedit nisi suscipit animi earum possimus, id,
+                        nostrum sapiente iusto voluptate in sint commodi porro? Dolor aliquid maxime praesentium a in,
+                        repellat mollitia. Et iure modi nisi voluptatibus dolorum mollitia a inventore. Modi.</p>
                 </div>
 
                 <div class="row">
                     <div class="col-lg-4">
-                        <img src="/img/profile-img.jpg" class="img-fluid" alt="">
+                        <img src="{{asset('public/img/profile-img.jpg')}}" class="img-fluid" alt="">
                     </div>
                     <div class="col-lg-8 pt-4 pt-lg-0 content">
                         <h3>UI/UX Designer &amp; Web Developer.</h3>
@@ -366,7 +339,7 @@
 
                     <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                         <div class="portfolio-wrap">
-                            <img src="/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+                            <img src="{{asset('public/img/portfolio/portfolio-1.jpg')}}" class="img-fluid" alt="">
                             <div class="portfolio-info">
                                 <h4>App 1</h4>
                                 <p>App</p>
@@ -383,7 +356,7 @@
 
                     <div class="col-lg-4 col-md-6 portfolio-item filter-web">
                         <div class="portfolio-wrap">
-                            <img src="/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+                            <img src="{{asset('public/img/portfolio/portfolio-2.jpg')}}" class="img-fluid" alt="">
                             <div class="portfolio-info">
                                 <h4>Web 3</h4>
                                 <p>Web</p>
@@ -400,7 +373,7 @@
 
                     <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                         <div class="portfolio-wrap">
-                            <img src="/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+                            <img src="{{asset('public/img/portfolio/portfolio-3.jpg')}}" class="img-fluid" alt="">
                             <div class="portfolio-info">
                                 <h4>App 2</h4>
                                 <p>App</p>
@@ -417,7 +390,7 @@
 
                     <div class="col-lg-4 col-md-6 portfolio-item filter-card">
                         <div class="portfolio-wrap">
-                            <img src="/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
+                            <img src="{{asset('public/img/portfolio/portfolio-4.jpg')}}" class="img-fluid" alt="">
                             <div class="portfolio-info">
                                 <h4>Card 2</h4>
                                 <p>Card</p>
@@ -434,7 +407,7 @@
 
                     <div class="col-lg-4 col-md-6 portfolio-item filter-web">
                         <div class="portfolio-wrap">
-                            <img src="/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
+                            <img src="{{asset('public/img/portfolio/portfolio-5.jpg')}}" class="img-fluid" alt="">
                             <div class="portfolio-info">
                                 <h4>Web 2</h4>
                                 <p>Web</p>
@@ -451,7 +424,7 @@
 
                     <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                         <div class="portfolio-wrap">
-                            <img src="/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+                            <img src="{{asset('public/img/portfolio/portfolio-6.jpg')}}" class="img-fluid" alt="">
                             <div class="portfolio-info">
                                 <h4>App 3</h4>
                                 <p>App</p>
@@ -468,7 +441,7 @@
 
                     <div class="col-lg-4 col-md-6 portfolio-item filter-card">
                         <div class="portfolio-wrap">
-                            <img src="/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
+                            <img src="{{asset('public/img/portfolio/portfolio-7.jpg')}}" class="img-fluid" alt="">
                             <div class="portfolio-info">
                                 <h4>Card 1</h4>
                                 <p>Card</p>
@@ -485,7 +458,7 @@
 
                     <div class="col-lg-4 col-md-6 portfolio-item filter-card">
                         <div class="portfolio-wrap">
-                            <img src="/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
+                            <img src="{{asset('public/img/portfolio/portfolio-8.jpg')}}" class="img-fluid" alt="">
                             <div class="portfolio-info">
                                 <h4>Card 3</h4>
                                 <p>Card</p>
@@ -502,7 +475,7 @@
 
                     <div class="col-lg-4 col-md-6 portfolio-item filter-web">
                         <div class="portfolio-wrap">
-                            <img src="/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
+                            <img src="{{asset('public/img/portfolio/portfolio-9.jpg')}}" class="img-fluid" alt="">
                             <div class="portfolio-info">
                                 <h4>Web 3</h4>
                                 <p>Web</p>
@@ -648,7 +621,8 @@
 
                         <div class="swiper-slide">
                             <div class="testimonial-item">
-                                <img src="/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                                <img src="{{asset('public/img/testimonials/testimonials-1.jpg')}}"
+                                    class="testimonial-img" alt="">
                                 <h3>Saul Goodman</h3>
                                 <h4>Ceo &amp; Founder</h4>
                                 <p>
@@ -663,7 +637,8 @@
 
                         <div class="swiper-slide">
                             <div class="testimonial-item">
-                                <img src="/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                                <img src="{{asset('public/img/testimonials/testimonials-2.jpg')}}"
+                                    class="testimonial-img" alt="">
                                 <h3>Sara Wilsson</h3>
                                 <h4>Designer</h4>
                                 <p>
@@ -678,7 +653,8 @@
 
                         <div class="swiper-slide">
                             <div class="testimonial-item">
-                                <img src="/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                                <img src="{{asset('public/img/testimonials/testimonials-3.jpg')}}"
+                                    class="testimonial-img" alt="">
                                 <h3>Jena Karlis</h3>
                                 <h4>Store Owner</h4>
                                 <p>
@@ -693,7 +669,8 @@
 
                         <div class="swiper-slide">
                             <div class="testimonial-item">
-                                <img src="/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                                <img src="{{asset('public/img/testimonials/testimonials-4.jpg')}}"
+                                    class="testimonial-img" alt="">
                                 <h3>Matt Brandon</h3>
                                 <h4>Freelancer</h4>
                                 <p>
@@ -708,7 +685,8 @@
 
                         <div class="swiper-slide">
                             <div class="testimonial-item">
-                                <img src="/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                                <img src="{{asset('public/img/testimonials/testimonials-5.jpg')}}"
+                                    class="testimonial-img" alt="">
                                 <h3>John Larson</h3>
                                 <h4>Entrepreneur</h4>
                                 <p>
@@ -799,50 +777,4 @@
         </section><!-- End Contact Section -->
 
     </main><!-- End #main -->
-
-    <!-- ======= Footer ======= -->
-    <footer id="footer">
-        <div class="container">
-            <h3>Brandon Johnson</h3>
-            <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi
-                placeat.</p>
-            <div class="social-links">
-                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-            </div>
-            <div class="copyright">
-                &copy; Copyright <strong><span>MyResume</span></strong>. All Rights Reserved
-            </div>
-            <div class="credits">
-                <!-- All the links in the footer should remain intact. -->
-                <!-- You can delete the links only if you purchased the pro version. -->
-                <!-- Licensing information: [license-url] -->
-                <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/ -->
-                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-            </div>
-        </div>
-    </footer><!-- End Footer -->
-
-    <div id="preloader"></div>
-    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
-            class="bi bi-arrow-up-short"></i></a>
-
-    <!-- Vendor JS Files -->
-    <script src="/vendor/aos/aos.js"></script>
-    <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="/vendor/purecounter/purecounter.js"></script>
-    <script src="/vendor/swiper/swiper-bundle.min.js"></script>
-    <script src="/vendor/typed.js/typed.min.js"></script>
-    <script src="/vendor/waypoints/noframework.waypoints.js"></script>
-
-    <!-- Template Main JS File -->
-    <script src="/js/main.js"></script>
-
-</body>
-
-</html>
+</x-layout>
