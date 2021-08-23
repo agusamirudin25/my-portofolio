@@ -1,4 +1,4 @@
-<x-layout>
+<x-layout title="My-portofolio | Agus Amirudin">
     <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
     <!-- ======= Header ======= -->
     <header id="header" class="d-flex flex-column justify-content-center">
