@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Log;
 
 class HomeCT extends Controller
 {
@@ -14,6 +15,7 @@ class HomeCT extends Controller
      */
     public function __invoke(Request $request)
     {
+        Log::critical('This is a critical message Sent from Laravel App');
         return view('home');
     }
 }
