@@ -17,10 +17,10 @@ class HomeCT extends Controller
     public function __invoke(Request $request)
     {
         try {
-            Alert::success('Success Title', 'Success Message');
             return view('home');
         } catch (\Throwable $th) {
             Log::critical($th);
+            Alert::success('Success Title', 'Success Message');
         }
     }
 }
