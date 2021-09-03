@@ -32,6 +32,7 @@
 <body>
 
     {{$slot}}
+    @include('sweetalert::alert')
 
     <!-- ======= Footer ======= -->
     <footer id="footer">
